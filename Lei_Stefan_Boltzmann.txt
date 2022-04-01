@@ -1,0 +1,7 @@
+# Lei de Stefan-Boltzmann
+
+sigma = 5.6697 * 10**(-8)
+temperatura = float(input('Digite a temperatura absoluta (K) do corpo negro:'))
+stefan = sigma * temperatura**4
+
+print ('O poder emissivo do corpo negro é de', stefan, 'W m²')

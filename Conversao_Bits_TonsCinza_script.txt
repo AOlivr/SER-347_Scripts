@@ -1,0 +1,7 @@
+# Transformação de bits em tons de cinza
+
+a = 2
+bits = int(input('Digite o número de bits:'))
+conversion = a ** bits
+
+print = (conversion, 'tons de cinza')

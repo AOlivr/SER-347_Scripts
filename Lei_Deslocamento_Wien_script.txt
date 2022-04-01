@@ -1,0 +1,7 @@
+# Lei de Deslocamento de Wien
+
+a = 2898
+onda = float(input('Digite a temperatura máxima (K):'))
+wien = a/onda
+
+print (wien, 'µm K')
